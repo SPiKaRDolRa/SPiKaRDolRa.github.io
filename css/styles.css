@@ -113,6 +113,7 @@ nav .contrainer {
 }
 
 @media screen and (max-width: 550px) {
+
   .menu {
     display: none;
   }
@@ -124,6 +125,12 @@ nav .contrainer {
     color: #fff;
     font-size: 3vmax;
   }
+}
+
+@media (max-width: 768px) {
+  .body {
+      background-attachment: scroll !important;
+  } 
 }
 
 /******************  Main-body    ******************/
