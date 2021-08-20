@@ -11,6 +11,7 @@ import Footer from './Footer';
 const App = () => {
   return (
     <Router>
+      <background />
       <Navbar />
       <main>
         <Switch>
@@ -28,7 +29,7 @@ const App = () => {
           </Route>
         </Switch> 
       <Footer />
-      </main> 
+      </main>
     </Router>
   );
 }
