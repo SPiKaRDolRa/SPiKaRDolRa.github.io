@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/SPiKaRDolRa.github.io/static/js/main.436118bf.chunk.js",
+    "main.js.map": "/SPiKaRDolRa.github.io/static/js/main.436118bf.chunk.js.map",
+    "runtime-main.js": "/SPiKaRDolRa.github.io/static/js/runtime-main.3320010b.js",
+    "runtime-main.js.map": "/SPiKaRDolRa.github.io/static/js/runtime-main.3320010b.js.map",
+    "static/css/2.4be38407.chunk.css": "/SPiKaRDolRa.github.io/static/css/2.4be38407.chunk.css",
+    "static/js/2.e725fb30.chunk.js": "/SPiKaRDolRa.github.io/static/js/2.e725fb30.chunk.js",
+    "static/js/2.e725fb30.chunk.js.map": "/SPiKaRDolRa.github.io/static/js/2.e725fb30.chunk.js.map",
+    "index.html": "/SPiKaRDolRa.github.io/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/SPiKaRDolRa.github.io/static/css/2.4be38407.chunk.css.map",
+    "static/js/2.e725fb30.chunk.js.LICENSE.txt": "/SPiKaRDolRa.github.io/static/js/2.e725fb30.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3320010b.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.e725fb30.chunk.js",
+    "static/js/main.436118bf.chunk.js"
+  ]
+}
