@@ -8,7 +8,10 @@
 }
 
 body {
-  background-image: url(../assets/img/main-body.jpg);
+  background-image: url(../assets/img/main-body.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover; 
   background-position: center;
   background-attachment: fixed;
@@ -125,12 +128,6 @@ nav .contrainer {
     color: #fff;
     font-size: 3vmax;
   }
-}
-
-@media (max-width: 768px) {
-  .body {
-      background-attachment: scroll !important;
-  } 
 }
 
 /******************  Main-body    ******************/
