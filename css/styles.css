@@ -12,7 +12,6 @@ body {
   background-size: cover; 
   background-position: center;
   background-attachment: fixed;
-
 }
 
 /******************  Scrollbar  ******************/
@@ -125,6 +124,12 @@ nav .contrainer {
     display: flex;
     color: #fff;
     font-size: 3vmax;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .body {
+    background-size: 100vw auto;
   }
 }
 
