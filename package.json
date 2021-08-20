@@ -22,7 +22,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "http://SPiKaRDolRa.github.io/SPiKaRDolRa.github.io",
+  "homepage": "https://spikardolra.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
