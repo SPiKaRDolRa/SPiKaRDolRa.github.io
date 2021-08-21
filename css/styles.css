@@ -345,7 +345,7 @@ hg {
 }
 
 #card-services:hover .frame-img .img-services {
-  color: #04142d
+  color: #04142d;
 }
 
 #card-services .body-services .title-services {
@@ -408,7 +408,7 @@ hg {
 
 .section-slider {
   position: relative;
-  align-items: center;
+  text-align: center;
   border-right: 3px solid rgba(242,107,80,0.5);
 }
 
@@ -416,6 +416,12 @@ hg {
   height: 5rem;
   width: auto;
   margin: auto;
+  color: rgba(4,20,45,0.85);
+  transition: 500ms ;
+}
+
+.section-slider #photo-slider:hover {
+  color: #04142d;
 }
 
 #backend {
