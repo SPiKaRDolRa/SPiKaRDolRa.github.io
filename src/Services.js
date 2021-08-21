@@ -3,6 +3,10 @@ import Slider from 'react-slick'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import { RiArticleLine, RiDraftLine } from "react-icons/ri";
 import { GiAbstract089 } from "react-icons/gi";
+import {SiHtml5, SiCss3, SiJavascript, SiReact, SiBootstrap,
+        SiFigma, SiVueDotJs, SiSass, SiNodeDotJs, SiNextDotJs, 
+        SiPython, SiDjango, SiCplusplus, SiLinux, SiGooglecloud,
+        SiFirebase, SiGit, SiGithub} from "react-icons/si";
 
 class Services extends Component {
     render() {
@@ -26,7 +30,7 @@ class Services extends Component {
               {
                 breakpoint: 600,
                 settings: {
-                  slidesToShow: 2,
+                  slidesToShow: 3,
                   slidesToScroll: 2,
                 }
               },
@@ -94,28 +98,28 @@ class Services extends Component {
                 <Row className="Container" style={{transform: "translate(0, 12px)"}}>
                     <Slider {...settings}>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/html5.png" />
+                            <SiHtml5 id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/CSS3.png" />
+                            <SiCss3 id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/JS.png" />
+                            <SiJavascript id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/React.png" style={{transform: "scale(90%)"}} />
+                            <SiReact id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/bootstrap.png" style={{transform: "scale(80%)"}} />
+                            <SiBootstrap id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/figma.png" style={{transform: "scale(120%)"}} />
+                            <SiFigma id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/vue.png" style={{transform: "scale(70%)"}} />
+                            <SiVueDotJs id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/sass.png" style={{transform: "scale(70%)"}} />
+                            <SiSass id="photo-slider" />
                         </div>
                     </Slider>
                 </Row>
@@ -131,37 +135,37 @@ class Services extends Component {
                 <Row className="Container" style={{transform: "translate(0, 12px)"}}>
                     <Slider {...settings}>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/js.png" />
+                            <SiJavascript id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/nodejs.png" style={{transform: "scale(85%)"}}/>
+                            <SiNodeDotJs id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/python.png" style={{transform: "scale(140%)"}} />
+                            <SiNextDotJs id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/Django.png" style={{transform: "scale(80%)"}} />
+                            <SiPython id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/c++.png" style={{transform: "scale(90%)"}} />
+                            <SiDjango id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/Linux.png" style={{transform: "scale(130%)"}} />
+                            <SiCplusplus id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/google-cloud.png" style={{transform: "scale(110%)"}} />
+                            <SiLinux id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/AWS.png" style={{transform: "scale(110%)"}} />
+                            <SiGooglecloud id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/firebase.png" style={{transform: "scale(110%)"}} />
+                            <SiFirebase id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/git.png" style={{transform: "scale(50%)"}} />
+                            <SiGit id="photo-slider" />
                         </div>
                         <div className="section-slider">
-                            <img id="photo-slider" src="../assets/img/github.png" style={{transform: "scale(80%)"}} />
+                            <SiGithub id="photo-slider" />
                         </div>
                     </Slider>
                 </Row>
