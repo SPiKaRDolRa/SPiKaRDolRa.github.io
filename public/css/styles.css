@@ -52,13 +52,14 @@ background {
 
 /******************  Nav  ******************/
 
-nav {
-  background-attachment: fixed;
+.navbar {
+  min-height: calc(1.25vmax + 1rem + 13px);
+  height: fit-content;
   background: rgba(0, 0, 0, 0.75);
-  animation: fadeIn 1s linear;
+  animation: fadeIn 0.75s linear;
 }
 
-nav .contrainer {
+.navbar .contrainer {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -69,11 +70,8 @@ nav .contrainer {
 }
 
 .logo {
-  padding-left: 2.5vw;
-}
-
-.logo .text {
   display: flow-root;
+  margin-left: 2.5vw;
   color: #ccff00;
   text-decoration: none;
   font-style: italic;
@@ -82,16 +80,16 @@ nav .contrainer {
   -webkit-text-stroke: 0.25px gold;
 }
 
-.logo .text:hover {
+.logo:hover {
+  color: #ccff00;
   filter: brightness(125%);
   transform: scale(110%);
 }
 
 .menu {
   display: flex;
-  margin: 0;
   padding-right: 2.5vw;
-  height: 100%;
+  margin: 0;
   column-gap: 20px;
 }
 
@@ -126,22 +124,29 @@ nav .contrainer {
   color: #ccff00;
 }
 
-.mobile-menu {
+.navbar .contrainer .toggle  {
   display: none;
 }
 
-@media screen and (max-width: 550px) {
+ @media screen and (max-width: 575px) {
 
   .menu {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    line-height: 1rem;
+    width: fit-content;
+    margin-left: auto;
   }
 
-  .mobile-menu {
-    padding-right: 2.5vw;
-    align-items: center;
-    display: flex;
+
+  .navbar .contrainer .toggle  {
+    display: block;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
     color: #fff;
-    font-size: 3vmax;
+    font-size: 1.25rem;
+    transform: translate(0, -5px);
   }
 }
 
@@ -234,7 +239,7 @@ hg {
   margin-top: calc(1.25vmax + 1rem + 33px );
   margin-bottom: calc(-1 * (1.25vmax + 1rem + 13px));
   background-color: rgba(0, 0, 0, 0.75);
-  animation: fadeIn 1.5s linear;
+  animation: fadeIn 2.25s linear;
 }
 
 .aboutBody .Contrainer {
@@ -284,7 +289,7 @@ hg {
   margin-top: calc(1.25vmax + 1rem + 33px );
   margin-bottom: calc(-1 * (1.25vmax + 1rem + 13px));
   background-color: rgba(0, 0, 0, 0.75);
-  animation: fadeIn 1.5s linear;
+  animation: fadeIn 3s linear;
 }
 
 .servicesBody .Contrainer {
@@ -435,6 +440,7 @@ hg {
   width: 90vw;
   margin-top: 3rem;
   margin-left: 5%;
+  animation: fadeIn 3s linear;
 }
 
 .contactBody .contact-title {

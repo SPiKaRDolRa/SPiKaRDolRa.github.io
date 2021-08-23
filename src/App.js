@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Navbar from './Navbar';
+import Header from './Header';
 import Main from './Main';
 import About from './About';
 import Services from './Services';
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <background />
-      <Navbar />
+      <Header />
       <main>
         <Switch>
           <Route path="/" exact>
