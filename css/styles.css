@@ -53,8 +53,7 @@ background {
 /******************  Nav  ******************/
 
 .navbar {
-  min-height: calc(1.25vmax + 1rem + 13px);
-  height: fit-content;
+  min-height: calc(1.25vmax + 1rem + 13px ); 
   background: rgba(0, 0, 0, 0.75);
   animation: fadeIn 0.75s linear;
 }
@@ -157,7 +156,7 @@ background {
   height: auto;
   width: 90%;
   margin-left: 5%;
-  margin-top: calc(1.25vmax + 1rem + 33px );
+  margin-top: calc(1.25vmax + 1rem + 43px );
   margin-bottom: calc(-1 * (1.25vmax + 1rem + 13px));
   background-color: rgba(0, 0, 0, 0.75);
   animation: fadeIn 1.5s linear;
